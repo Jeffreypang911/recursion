@@ -1,10 +1,10 @@
 
-let counter = 0
+let counter = 1
 function Recursion(n) { 
-    console.log(counter)
     if(counter <= n) {
+    console.log(counter)
     counter ++ 
     Recursion(n)}
 }    
 
-Recursion(7)
+Recursion(10)
